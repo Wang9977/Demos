@@ -2,17 +2,21 @@
   <img alt="Vue logo" src="./assets/logo.png">
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <Attrs/>
+  <SlotFather/>
 </template>
 
 <script>
 import Attrs from './components/Attrs.vue'
+// import Father from './components/Father.vue'
+import SlotFather from './slotDemo/Father'
 // import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorl,
-    Attrs
+    Attrs,
+    SlotFather
   }
 }
 </script>
