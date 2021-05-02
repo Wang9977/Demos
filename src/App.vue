@@ -1,8 +1,8 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <!-- <img alt="Vue logo" src="./assets/logo.png">
   <Attrs/>
-  <SlotFather/>
+  <SlotFather/> -->
+  <router-view></router-view>
 </template>
 
 <script>
